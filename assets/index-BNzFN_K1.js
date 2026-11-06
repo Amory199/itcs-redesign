@@ -181,7 +181,7 @@ import{n as e,t}from"./gsap-BpGrfLoK.js";(function(){let e=document.createElemen
         <h3>${o(e.title)}</h3><span class="vcard-sub">${o(e.sub??``)}</span>
         <p>${o(e.desc)}</p>
       </article>`).join(``)}
-      <article class="vcard vcard-editions" data-tilt>
+      <article class="vcard vcard-editions">
         <span class="vcard-ic">${a(`sparkle`)}</span>
         <h3>${o(i.volta.editionsTitle)}</h3>
         <ul class="chips">${i.volta.editions.map(e=>`<li><strong>${o(e.name)}</strong><span>${o(e.sub)}</span></li>`).join(``)}</ul>
